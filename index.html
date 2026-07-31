@@ -3,24 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Aikha Burger Food House</title>
-<style>
-body{margin:0;font-family:Arial,sans-serif;background:#f7f7f7;color:#333}
-header{background:#b71c1c;color:#fff;padding:18px 24px;display:flex;justify-content:space-between;align-items:center}
-nav a{color:#fff;text-decoration:none;margin-left:18px}
-.hero{background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),#444;height:420px;color:#fff;display:flex;align-items:center;justify-content:center;text-align:center}
-.hero h1{font-size:48px;margin:0}
-.hero p{font-size:20px}
-.btn{background:#ffcc00;color:#000;padding:12px 22px;border-radius:8px;text-decoration:none;font-weight:bold}
-section{padding:50px 10%}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
-.card{background:#fff;padding:20px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.15)}
-footer{background:#222;color:#fff;text-align:center;padding:20px}
-</style>
+<title>Aikha Food House</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-<h2>Aikha Burger Food House</h2>
+<h1>Aikha Food House</h1>
 <nav>
 <a href="#home">Home</a>
 <a href="#menu">Menu</a>
@@ -28,39 +16,14 @@ footer{background:#222;color:#fff;text-align:center;padding:20px}
 <a href="#contact">Contact</a>
 </nav>
 </header>
-
-<div class="hero" id="home">
-<div>
-<h1>Welcome to Aikha Burger Food House</h1>
-<p>Fresh Burgers • Wings • Fries • Great Service</p>
-<a class="btn" href="#menu">View Menu</a>
-</div>
-</div>
-
-<section id="menu">
-<h2>Our Menu</h2>
-<div class="cards">
-<div class="card"><h3>🍔 Burger</h3><p>Add your price here.</p></div>
-<div class="card"><h3>🍗 Chicken Wings</h3><p>Add your price here.</p></div>
-<div class="card"><h3>🍟 Fries</h3><p>Add your price here.</p></div>
-<div class="card"><h3>🥤 Drinks</h3><p>Add your price here.</p></div>
-</div>
+<section id="home" class="hero">
+<h2>Delicious Food, Great Moments</h2>
+<p>Welcome to Aikha Food House.</p>
+<button onclick="showMessage()">Order Now</button>
 </section>
-
-<section id="about">
-<h2>About Us</h2>
-<p>Welcome to Aikha Burger Food House. We proudly serve delicious and affordable meals with friendly customer service.</p>
-</section>
-
-<section id="contact">
-<h2>Contact Us</h2>
-<p><strong>Address:</strong> Brgy. Taliwa, Malitbog, Southern Leyte</p>
-<p><strong>Facebook:</strong> Aikha Burger Food House</p>
-<p><strong>Open:</strong> Daily</p>
-</section>
-
-<footer>
-© 2026 Aikha Burger Food House. All Rights Reserved.
-</footer>
+<section id="menu"><h2>Our Menu</h2><p>Add your burgers, wings, fries, drinks, and prices here.</p></section>
+<section id="about"><h2>About Us</h2><p>Family-owned restaurant serving fresh food.</p></section>
+<section id="contact"><h2>Contact</h2><p>Facebook: Aikha Food House</p></section>
+<script src="script.js"></script>
 </body>
 </html>
